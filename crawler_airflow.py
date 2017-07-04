@@ -4,7 +4,7 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.operators.subdag_operator import SubDagOperator
 
 CRAWLER_DIR = '/home/pzwxy/work/AtmanCorp/project/Crawler/'
-TRANSLATOR_DIR = 'aaa'
+TRANSLATOR_DIR = 'aaaa'
 
 default_args = {
     'owner': 'pzwxy',
